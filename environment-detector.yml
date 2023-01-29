@@ -3,6 +3,7 @@ name: cameratraps-detector
 channels:
   - conda-forge
   - pytorch
+  - fastai
 
 dependencies:
   - python=3.8
@@ -17,7 +18,7 @@ dependencies:
   - matplotlib
   - nb_conda_kernels
   - ipykernel
-  - opencv
+  - opencv-python-headless
   - requests
 
   # for running MegaDetector v4
